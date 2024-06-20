@@ -1,0 +1,25 @@
+/* styles.css */
+
+@import url("style.css");
+@import url("btn_restart.css");
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.button--pen{
+    --main_color : #4d4d4d ;
+    --sub_color1 : #FFF ;
+    --sub_color2 : #e9b800 ;
+    --base_color : #e9b800 ;
+    --border_radius1 : 60px 60px 40px 40px / 48px 48px 30px 30px ;
+    --border_radius2 : 70px 70px 40px 40px / 48px 48px 30px 30px ;
+    --border_radius3 : 40px 40px 40px 40px / 48px 48px 30px 30px ;
+}

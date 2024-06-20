@@ -11,19 +11,6 @@
  * document.body.append(sumContainer);
  */
 
-const createSum = (sumData) => {
-    // container
-    const container = document.createElement('div');
-    container.id = 'container';
 
-    // result
-    const result = document.createElement('p');
-    result.innerText = sumData.result;
-
-    // append
-    container.append(result);
-
-    return container;
-};
 
 export default createSum;
