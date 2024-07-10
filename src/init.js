@@ -1,5 +1,7 @@
 // import your listeners(events)
 
-import sumListener from './events/sumListener.js';
+import loadEvent from './events/loadEvent.js';
+import resetEvent from './events/resetEvent.js';
 
-sumListener();
+loadEvent();
+resetEvent();
